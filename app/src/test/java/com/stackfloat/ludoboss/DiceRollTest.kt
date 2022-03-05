@@ -6,7 +6,8 @@ import org.junit.Test
 class DiceRollTest{
     @Test
     fun testRollResult(){
+        val dice = Dice(6)
         assertTrue("the result is not a valid dice side (1-6) ",
-            Dice(6).roll() in 1..6)
+            dice.roll() in 1..dice.numSides)
     }
 }
