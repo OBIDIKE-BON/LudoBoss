@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LudoBoss</string>
+    <string name="roll_button_text">Roll</string>
+    <string name="string_roo_button">Roll</string>
+</resources>
